@@ -1,13 +1,3 @@
-<!-- 
-	This UI is modified by Rotic for use on EZ Server (UF Client)
-	Last updated on: 25-Dec-2013.  Please contact Rotic (via /tell)
- 	if you encountered issues.
-
-	Orginal UI: 
-	- Bags open Bank with 20 slots (3 tabs) 
-	- http://www.eqinterface.com/downloads/fileinfo.php?id=6097
--->
-
 <?xml version="1.0" encoding="us-ascii"?>
 <XML ID="EQInterfaceDefinitionLanguage">
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
@@ -16,11 +6,11 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>0</X>
-      <Y>0</Y>
+      <X>34</X>
+      <Y>1</Y>
     </Location>
     <Size>
-      <CX>334</CX>
+      <CX>431</CX>
       <CY>20</CY>
     </Size>
     <Text>Banker Name</Text>
@@ -38,14 +28,14 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>10</Y>
+      <X>8</X>
+      <Y>5</Y>
     </Location>
     <Size>
-      <CX>20</CX>
-      <CY>20</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
-    <Background>A_RecessedBox</Background>
+    <Background>A_HotButton1Pressed</Background>
     <EQType>2000</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
@@ -55,14 +45,14 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>40</Y>
+      <X>8</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>20</CX>
-      <CY>20</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
-    <Background>A_RecessedBox</Background>
+    <Background>A_HotButton2Pressed</Background>
     <EQType>2001</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
@@ -72,14 +62,14 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>70</Y>
+      <X>8</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>20</CX>
-      <CY>20</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
-    <Background>A_RecessedBox</Background>
+    <Background>A_HotButton3Pressed</Background>
     <EQType>2002</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
@@ -89,14 +79,14 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>100</Y>
+      <X>8</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>20</CX>
-      <CY>20</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
-    <Background>A_RecessedBox</Background>
+    <Background>A_HotButton4Pressed</Background>
     <EQType>2003</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
@@ -106,14 +96,14 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>130</Y>
+      <X>8</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>20</CX>
-      <CY>20</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
-    <Background>A_RecessedBox</Background>
+    <Background>A_HotButton5Pressed</Background>
     <EQType>2004</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
@@ -123,14 +113,14 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>160</Y>
+      <X>8</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>20</CX>
-      <CY>20</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
-    <Background>A_RecessedBox</Background>
+    <Background>A_HotButton6Pressed</Background>
     <EQType>2005</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
@@ -140,14 +130,14 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>190</Y>
+      <X>8</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>20</CX>
-      <CY>20</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
-    <Background>A_RecessedBox</Background>
+    <Background>A_HotButton7Pressed</Background>
     <EQType>2006</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
@@ -157,14 +147,14 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>220</Y>
+      <X>8</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>20</CX>
-      <CY>20</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
-    <Background>A_RecessedBox</Background>
+    <Background>A_HotButton8Pressed</Background>
     <EQType>2007</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
@@ -174,14 +164,14 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>10</Y>
+      <X>8</X>
+      <Y>5</Y>
     </Location>
     <Size>
-      <CX>20</CX>
-      <CY>20</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
-    <Background>A_RecessedBox</Background>
+    <Background>A_HotButton1Pressed</Background>
     <EQType>2008</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
@@ -191,14 +181,14 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>40</Y>
+      <X>8</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>20</CX>
-      <CY>20</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
-    <Background>A_RecessedBox</Background>
+    <Background>A_HotButton2Pressed</Background>
     <EQType>2009</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
@@ -208,14 +198,14 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>70</Y>
+      <X>8</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>20</CX>
-      <CY>20</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
-    <Background>A_RecessedBox</Background>
+    <Background>A_HotButton3Pressed</Background>
     <EQType>2010</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
@@ -225,14 +215,14 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>100</Y>
+      <X>8</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>20</CX>
-      <CY>20</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
-    <Background>A_RecessedBox</Background>
+    <Background>A_HotButton4Pressed</Background>
     <EQType>2011</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
@@ -242,14 +232,14 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>130</Y>
+      <X>8</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>20</CX>
-      <CY>20</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
-    <Background>A_RecessedBox</Background>
+    <Background>A_HotButton5Pressed</Background>
     <EQType>2012</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
@@ -259,14 +249,14 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>160</Y>
+      <X>8</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>20</CX>
-      <CY>20</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
-    <Background>A_RecessedBox</Background>
+    <Background>A_HotButton6Pressed</Background>
     <EQType>2013</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
@@ -276,14 +266,14 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>190</Y>
+      <X>8</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>20</CX>
-      <CY>20</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
-    <Background>A_RecessedBox</Background>
+    <Background>A_HotButton7Pressed</Background>
     <EQType>2014</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
@@ -293,14 +283,14 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>220</Y>
+      <X>8</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>20</CX>
-      <CY>20</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
-    <Background>A_RecessedBox</Background>
+    <Background>A_HotButton8Pressed</Background>
     <EQType>2015</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
@@ -310,14 +300,14 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>10</Y>
+      <X>8</X>
+      <Y>5</Y>
     </Location>
     <Size>
-      <CX>20</CX>
-      <CY>20</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
-    <Background>A_RecessedBox</Background>
+    <Background>A_HotButton1Pressed</Background>
     <EQType>2016</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
@@ -327,14 +317,14 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>40</Y>
+      <X>8</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>20</CX>
-      <CY>20</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
-    <Background>A_RecessedBox</Background>
+    <Background>A_HotButton2Pressed</Background>
     <EQType>2017</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
@@ -344,14 +334,14 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>70</Y>
+      <X>8</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>20</CX>
-      <CY>20</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
-    <Background>A_RecessedBox</Background>
+    <Background>A_HotButton3Pressed</Background>
     <EQType>2018</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
@@ -361,14 +351,14 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>100</Y>
+      <X>8</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>20</CX>
-      <CY>20</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
-    <Background>A_RecessedBox</Background>
+    <Background>A_HotButton4Pressed</Background>
     <EQType>2019</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
@@ -378,14 +368,14 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>130</Y>
+      <X>8</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>20</CX>
-      <CY>20</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
-    <Background>A_RecessedBox</Background>
+    <Background>A_HotButton5Pressed</Background>
     <EQType>2020</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
@@ -395,14 +385,14 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>160</Y>
+      <X>8</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>20</CX>
-      <CY>20</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
-    <Background>A_RecessedBox</Background>
+    <Background>A_HotButton6Pressed</Background>
     <EQType>2021</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
@@ -412,14 +402,14 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>190</Y>
+      <X>8</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>20</CX>
-      <CY>20</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
-    <Background>A_RecessedBox</Background>
+    <Background>A_HotButton7Pressed</Background>
     <EQType>2022</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
@@ -429,14 +419,14 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>220</Y>
+      <X>8</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>20</CX>
-      <CY>20</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
-    <Background>A_RecessedBox</Background>
+    <Background>A_HotButton8Pressed</Background>
     <EQType>2023</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
@@ -446,8 +436,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>125</X>
-      <Y>400</Y>
+      <X>188</X>
+      <Y>545</Y>
     </Location>
     <Size>
       <CX>85</CX>
@@ -486,8 +476,8 @@
     </Size>
     <AlignCenter>true</AlignCenter>
     <Location>
-      <X>8</X>
-      <Y>353</Y>
+      <X>21</X>
+      <Y>490</Y>
     </Location>
   </Label>
   <InvSlot item="BIGB_SharedBankSlot0">
@@ -495,14 +485,14 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>299</Y>
+      <X>8</X>
+      <Y>397</Y>
     </Location>
     <Size>
-      <CX>20</CX>
-      <CY>20</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
-    <Background>A_RecessedBox</Background>
+    <Background>A_HotButton11Pressed</Background>
     <EQType>2500</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
@@ -512,14 +502,14 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>329</Y>
+      <X>8</X>
+      <Y>439</Y>
     </Location>
     <Size>
-      <CX>20</CX>
-      <CY>20</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
-    <Background>A_RecessedBox</Background>
+    <Background>A_HotButton12Pressed</Background>
     <EQType>2501</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
@@ -529,12 +519,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>10</X>
-      <Y>370</Y>
+      <X>6</X>
+      <Y>512</Y>
     </Location>
     <Size>
-      <CX>85</CX>
-      <CY>24</CY>
+      <CX>125</CX>
+      <CY>25</CY>
     </Size>
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference>Drop coins here or click to pick up Platinum</TooltipReference>
@@ -564,8 +554,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>70</X>
-      <Y>400</Y>
+      <X>81</X>
+      <Y>545</Y>
     </Location>
     <Size>
       <CX>50</CX>
@@ -595,12 +585,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>105</X>
-      <Y>363</Y>
+      <X>166</X>
+      <Y>501</Y>
     </Location>
     <Size>
-      <CX>85</CX>
-      <CY>24</CY>
+      <CX>125</CX>
+      <CY>25</CY>
     </Size>
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference>Drop coins here or click to pick up Platinum</TooltipReference>
@@ -630,12 +620,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>190</X>
-      <Y>363</Y>
+      <X>297</X>
+      <Y>501</Y>
     </Location>
     <Size>
       <CX>50</CX>
-      <CY>24</CY>
+      <CY>25</CY>
     </Size>
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference>Drop coins here or click to pick up Gold</TooltipReference>
@@ -670,12 +660,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>240</X>
-      <Y>363</Y>
+      <X>355</X>
+      <Y>501</Y>
     </Location>
     <Size>
       <CX>50</CX>
-      <CY>24</CY>
+      <CY>25</CY>
     </Size>
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference>Drop coins here or click to pick up Silver</TooltipReference>
@@ -710,12 +700,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>290</X>
-      <Y>363</Y>
+      <X>415</X>
+      <Y>501</Y>
     </Location>
     <Size>
       <CX>50</CX>
-      <CY>24</CY>
+      <CY>25</CY>
     </Size>
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference>Drop coins here or click to pick up Copper</TooltipReference>
@@ -750,8 +740,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>15</X>
-      <Y>400</Y>
+      <X>10</X>
+      <Y>545</Y>
     </Location>
     <Size>
       <CX>50</CX>
@@ -780,8 +770,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>215</X>
-      <Y>400</Y>
+      <X>378</X>
+      <Y>545</Y>
     </Location>
     <Size>
       <CX>85</CX>
@@ -810,29 +800,30 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>26</X>
+      <X>55</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2032</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
+    <RightAnchorOffset>0</RightAnchorOffset>
   </InvSlot>
   <InvSlot item="BB1_Slot2">
     <ScreenID>BB1_Slot2</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>56</X>
+      <X>97</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2033</EQType>
@@ -844,12 +835,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>86</X>
+      <X>139</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2034</EQType>
@@ -861,12 +852,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>116</X>
+      <X>181</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2035</EQType>
@@ -878,12 +869,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>146</X>
+      <X>223</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2036</EQType>
@@ -895,12 +886,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>176</X>
+      <X>265</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2037</EQType>
@@ -912,12 +903,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>206</X>
+      <X>307</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2038</EQType>
@@ -929,12 +920,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>236</X>
+      <X>349</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2039</EQType>
@@ -946,48 +937,47 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
+      <X>391</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2040</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
-	<TooltipReference/>
+    <TooltipReference />
   </InvSlot>
   <InvSlot item="BB1_Slot10">
     <ScreenID>BB1_Slot10</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>296</X>
+      <X>433</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2041</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
   </InvSlot>
-
   <InvSlot item="BB2_Slot1">
     <ScreenID>BB2_Slot1</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>26</X>
-      <Y>35</Y>
+      <X>55</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2042</EQType>
@@ -999,12 +989,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>56</X>
-      <Y>35</Y>
+      <X>97</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2043</EQType>
@@ -1016,12 +1006,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>86</X>
-      <Y>35</Y>
+      <X>139</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2044</EQType>
@@ -1033,12 +1023,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>116</X>
-      <Y>35</Y>
+      <X>181</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2045</EQType>
@@ -1050,12 +1040,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>146</X>
-      <Y>35</Y>
+      <X>223</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2046</EQType>
@@ -1067,12 +1057,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>176</X>
-      <Y>35</Y>
+      <X>265</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2047</EQType>
@@ -1084,12 +1074,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>206</X>
-      <Y>35</Y>
+      <X>307</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2048</EQType>
@@ -1101,12 +1091,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>236</X>
-      <Y>35</Y>
+      <X>349</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2049</EQType>
@@ -1118,12 +1108,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
-      <Y>35</Y>
+      <X>391</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2050</EQType>
@@ -1135,30 +1125,29 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>296</X>
-      <Y>35</Y>
+      <X>433</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2051</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
   </InvSlot>
-  
   <InvSlot item="BB3_Slot1">
     <ScreenID>BB3_Slot1</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>26</X>
-      <Y>65</Y>
+      <X>55</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2052</EQType>
@@ -1170,12 +1159,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>56</X>
-      <Y>65</Y>
+      <X>97</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2053</EQType>
@@ -1187,12 +1176,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>86</X>
-      <Y>65</Y>
+      <X>139</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2054</EQType>
@@ -1204,12 +1193,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>116</X>
-      <Y>65</Y>
+      <X>181</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2055</EQType>
@@ -1221,12 +1210,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>146</X>
-      <Y>65</Y>
+      <X>223</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2056</EQType>
@@ -1238,12 +1227,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>176</X>
-      <Y>65</Y>
+      <X>265</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2057</EQType>
@@ -1255,12 +1244,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>206</X>
-      <Y>65</Y>
+      <X>307</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2058</EQType>
@@ -1272,12 +1261,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>236</X>
-      <Y>65</Y>
+      <X>349</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2059</EQType>
@@ -1289,12 +1278,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
-      <Y>65</Y>
+      <X>391</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2060</EQType>
@@ -1306,30 +1295,29 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>296</X>
-      <Y>65</Y>
+      <X>433</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2061</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
   </InvSlot>
-  
   <InvSlot item="BB4_Slot1">
     <ScreenID>BB4_Slot1</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>26</X>
-      <Y>95</Y>
+      <X>55</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2062</EQType>
@@ -1341,12 +1329,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>56</X>
-      <Y>95</Y>
+      <X>97</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2063</EQType>
@@ -1358,12 +1346,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>86</X>
-      <Y>95</Y>
+      <X>139</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2064</EQType>
@@ -1375,12 +1363,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>116</X>
-      <Y>95</Y>
+      <X>181</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2065</EQType>
@@ -1392,12 +1380,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>146</X>
-      <Y>95</Y>
+      <X>223</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2066</EQType>
@@ -1409,12 +1397,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>176</X>
-      <Y>95</Y>
+      <X>265</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2067</EQType>
@@ -1426,12 +1414,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>206</X>
-      <Y>95</Y>
+      <X>307</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2068</EQType>
@@ -1443,12 +1431,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>236</X>
-      <Y>95</Y>
+      <X>349</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2069</EQType>
@@ -1460,12 +1448,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
-      <Y>95</Y>
+      <X>391</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2070</EQType>
@@ -1477,30 +1465,29 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>296</X>
-      <Y>95</Y>
+      <X>433</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2071</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
   </InvSlot>
-  
   <InvSlot item="BB5_Slot1">
     <ScreenID>BB5_Slot1</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>26</X>
-      <Y>125</Y>
+      <X>55</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2072</EQType>
@@ -1512,12 +1499,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>56</X>
-      <Y>125</Y>
+      <X>97</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2073</EQType>
@@ -1529,12 +1516,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>86</X>
-      <Y>125</Y>
+      <X>139</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2074</EQType>
@@ -1546,12 +1533,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>116</X>
-      <Y>125</Y>
+      <X>181</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2075</EQType>
@@ -1563,12 +1550,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>146</X>
-      <Y>125</Y>
+      <X>223</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2076</EQType>
@@ -1580,12 +1567,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>176</X>
-      <Y>125</Y>
+      <X>265</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2077</EQType>
@@ -1597,12 +1584,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>206</X>
-      <Y>125</Y>
+      <X>307</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2078</EQType>
@@ -1614,12 +1601,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>236</X>
-      <Y>125</Y>
+      <X>349</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2079</EQType>
@@ -1631,12 +1618,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
-      <Y>125</Y>
+      <X>391</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2080</EQType>
@@ -1648,30 +1635,29 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>296</X>
-      <Y>125</Y>
+      <X>433</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2081</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
-  </InvSlot>  
-
+  </InvSlot>
   <InvSlot item="BB6_Slot1">
     <ScreenID>BB6_Slot1</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>26</X>
-      <Y>155</Y>
+      <X>55</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2082</EQType>
@@ -1683,12 +1669,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>56</X>
-      <Y>155</Y>
+      <X>97</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2083</EQType>
@@ -1700,12 +1686,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>86</X>
-      <Y>155</Y>
+      <X>139</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2084</EQType>
@@ -1717,12 +1703,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>116</X>
-      <Y>155</Y>
+      <X>181</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2085</EQType>
@@ -1734,12 +1720,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>146</X>
-      <Y>155</Y>
+      <X>223</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2086</EQType>
@@ -1751,12 +1737,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>176</X>
-      <Y>155</Y>
+      <X>265</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2087</EQType>
@@ -1768,12 +1754,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>206</X>
-      <Y>155</Y>
+      <X>307</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2088</EQType>
@@ -1785,12 +1771,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>236</X>
-      <Y>155</Y>
+      <X>349</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2089</EQType>
@@ -1802,12 +1788,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
-      <Y>155</Y>
+      <X>391</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2090</EQType>
@@ -1819,30 +1805,29 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>296</X>
-      <Y>155</Y>
+      <X>433</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2091</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
-    </InvSlot>  
-    
+  </InvSlot>
   <InvSlot item="BB7_Slot1">
     <ScreenID>BB7_Slot1</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>26</X>
-      <Y>185</Y>
+      <X>55</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2092</EQType>
@@ -1854,12 +1839,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>56</X>
-      <Y>185</Y>
+      <X>97</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2093</EQType>
@@ -1871,12 +1856,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>86</X>
-      <Y>185</Y>
+      <X>139</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2094</EQType>
@@ -1888,12 +1873,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>116</X>
-      <Y>185</Y>
+      <X>181</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2095</EQType>
@@ -1905,12 +1890,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>146</X>
-      <Y>185</Y>
+      <X>223</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2096</EQType>
@@ -1922,12 +1907,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>176</X>
-      <Y>185</Y>
+      <X>265</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2097</EQType>
@@ -1939,12 +1924,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>206</X>
-      <Y>185</Y>
+      <X>307</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2098</EQType>
@@ -1956,12 +1941,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>236</X>
-      <Y>185</Y>
+      <X>349</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2099</EQType>
@@ -1973,12 +1958,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
-      <Y>185</Y>
+      <X>391</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2100</EQType>
@@ -1990,30 +1975,29 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>296</X>
-      <Y>185</Y>
+      <X>433</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2101</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
-  </InvSlot>  
-
+  </InvSlot>
   <InvSlot item="BB8_Slot1">
     <ScreenID>BB8_Slot1</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>26</X>
-      <Y>215</Y>
+      <X>55</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2102</EQType>
@@ -2025,12 +2009,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>56</X>
-      <Y>215</Y>
+      <X>97</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2103</EQType>
@@ -2042,12 +2026,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>86</X>
-      <Y>215</Y>
+      <X>139</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2104</EQType>
@@ -2059,12 +2043,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>116</X>
-      <Y>215</Y>
+      <X>181</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2105</EQType>
@@ -2076,12 +2060,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>146</X>
-      <Y>215</Y>
+      <X>223</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2106</EQType>
@@ -2093,12 +2077,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>176</X>
-      <Y>215</Y>
+      <X>265</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2107</EQType>
@@ -2110,12 +2094,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>206</X>
-      <Y>215</Y>
+      <X>307</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2108</EQType>
@@ -2127,12 +2111,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>236</X>
-      <Y>215</Y>
+      <X>349</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2109</EQType>
@@ -2144,12 +2128,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
-      <Y>215</Y>
+      <X>391</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2110</EQType>
@@ -2161,30 +2145,29 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>296</X>
-      <Y>215</Y>
+      <X>433</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2111</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
-  </InvSlot>  
-
+  </InvSlot>
   <InvSlot item="BB9_Slot1">
     <ScreenID>BB9_Slot1</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>26</X>
+      <X>55</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2112</EQType>
@@ -2196,12 +2179,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>56</X>
+      <X>97</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2113</EQType>
@@ -2213,12 +2196,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>86</X>
+      <X>139</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2114</EQType>
@@ -2230,12 +2213,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>116</X>
+      <X>181</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2115</EQType>
@@ -2247,12 +2230,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>146</X>
+      <X>223</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2116</EQType>
@@ -2264,12 +2247,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>176</X>
+      <X>265</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2117</EQType>
@@ -2281,12 +2264,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>206</X>
+      <X>307</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2118</EQType>
@@ -2298,12 +2281,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>236</X>
+      <X>349</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2119</EQType>
@@ -2315,12 +2298,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
+      <X>391</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2120</EQType>
@@ -2332,30 +2315,29 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>296</X>
+      <X>433</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2121</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
   </InvSlot>
-
   <InvSlot item="BB10_Slot1">
     <ScreenID>BB10_Slot1</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>26</X>
-      <Y>35</Y>
+      <X>55</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2122</EQType>
@@ -2367,12 +2349,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>56</X>
-      <Y>35</Y>
+      <X>97</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2123</EQType>
@@ -2384,12 +2366,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>86</X>
-      <Y>35</Y>
+      <X>139</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2124</EQType>
@@ -2401,12 +2383,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>116</X>
-      <Y>35</Y>
+      <X>181</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2125</EQType>
@@ -2418,12 +2400,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>146</X>
-      <Y>35</Y>
+      <X>223</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2126</EQType>
@@ -2435,12 +2417,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>176</X>
-      <Y>35</Y>
+      <X>265</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2127</EQType>
@@ -2452,12 +2434,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>206</X>
-      <Y>35</Y>
+      <X>307</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2128</EQType>
@@ -2469,12 +2451,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>236</X>
-      <Y>35</Y>
+      <X>349</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2129</EQType>
@@ -2486,12 +2468,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
-      <Y>35</Y>
+      <X>391</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2130</EQType>
@@ -2503,30 +2485,29 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>296</X>
-      <Y>35</Y>
+      <X>433</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2131</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
   </InvSlot>
-  
   <InvSlot item="BB11_Slot1">
     <ScreenID>BB11_Slot1</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>26</X>
-      <Y>65</Y>
+      <X>55</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2132</EQType>
@@ -2538,12 +2519,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>56</X>
-      <Y>65</Y>
+      <X>97</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2133</EQType>
@@ -2555,12 +2536,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>86</X>
-      <Y>65</Y>
+      <X>139</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2134</EQType>
@@ -2572,12 +2553,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>116</X>
-      <Y>65</Y>
+      <X>181</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2135</EQType>
@@ -2589,12 +2570,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>146</X>
-      <Y>65</Y>
+      <X>223</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2136</EQType>
@@ -2606,12 +2587,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>176</X>
-      <Y>65</Y>
+      <X>265</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2137</EQType>
@@ -2623,12 +2604,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>206</X>
-      <Y>65</Y>
+      <X>307</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2138</EQType>
@@ -2640,12 +2621,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>236</X>
-      <Y>65</Y>
+      <X>349</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2139</EQType>
@@ -2657,12 +2638,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
-      <Y>65</Y>
+      <X>391</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2140</EQType>
@@ -2674,30 +2655,29 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>296</X>
-      <Y>65</Y>
+      <X>433</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2141</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
   </InvSlot>
-
   <InvSlot item="BB12_Slot1">
     <ScreenID>BB12_Slot1</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>26</X>
-      <Y>95</Y>
+      <X>55</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2142</EQType>
@@ -2709,12 +2689,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>56</X>
-      <Y>95</Y>
+      <X>97</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2143</EQType>
@@ -2726,12 +2706,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>86</X>
-      <Y>95</Y>
+      <X>139</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2144</EQType>
@@ -2743,12 +2723,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>116</X>
-      <Y>95</Y>
+      <X>181</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2145</EQType>
@@ -2760,12 +2740,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>146</X>
-      <Y>95</Y>
+      <X>223</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2146</EQType>
@@ -2777,12 +2757,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>176</X>
-      <Y>95</Y>
+      <X>265</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2147</EQType>
@@ -2794,12 +2774,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>206</X>
-      <Y>95</Y>
+      <X>307</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2148</EQType>
@@ -2811,12 +2791,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>236</X>
-      <Y>95</Y>
+      <X>349</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2149</EQType>
@@ -2828,12 +2808,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
-      <Y>95</Y>
+      <X>391</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2150</EQType>
@@ -2845,30 +2825,29 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>296</X>
-      <Y>95</Y>
+      <X>433</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2151</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
   </InvSlot>
-  
   <InvSlot item="BB13_Slot1">
     <ScreenID>BB13_Slot1</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>26</X>
-      <Y>125</Y>
+      <X>55</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2152</EQType>
@@ -2880,12 +2859,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>56</X>
-      <Y>125</Y>
+      <X>97</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2153</EQType>
@@ -2897,12 +2876,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>86</X>
-      <Y>125</Y>
+      <X>139</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2154</EQType>
@@ -2914,12 +2893,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>116</X>
-      <Y>125</Y>
+      <X>181</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2155</EQType>
@@ -2931,12 +2910,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>146</X>
-      <Y>125</Y>
+      <X>223</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2156</EQType>
@@ -2948,12 +2927,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>176</X>
-      <Y>125</Y>
+      <X>265</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2157</EQType>
@@ -2965,12 +2944,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>206</X>
-      <Y>125</Y>
+      <X>307</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2158</EQType>
@@ -2982,12 +2961,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>236</X>
-      <Y>125</Y>
+      <X>349</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2159</EQType>
@@ -2999,12 +2978,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
-      <Y>125</Y>
+      <X>391</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2160</EQType>
@@ -3016,30 +2995,29 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>296</X>
-      <Y>125</Y>
+      <X>433</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2161</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
   </InvSlot>
-
   <InvSlot item="BB14_Slot1">
     <ScreenID>BB14_Slot1</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>26</X>
-      <Y>155</Y>
+      <X>55</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2162</EQType>
@@ -3051,12 +3029,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>56</X>
-      <Y>155</Y>
+      <X>97</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2163</EQType>
@@ -3068,12 +3046,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>86</X>
-      <Y>155</Y>
+      <X>139</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2164</EQType>
@@ -3085,12 +3063,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>116</X>
-      <Y>155</Y>
+      <X>181</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2165</EQType>
@@ -3102,12 +3080,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>146</X>
-      <Y>155</Y>
+      <X>223</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2166</EQType>
@@ -3119,12 +3097,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>176</X>
-      <Y>155</Y>
+      <X>265</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2167</EQType>
@@ -3136,12 +3114,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>206</X>
-      <Y>155</Y>
+      <X>307</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2168</EQType>
@@ -3153,12 +3131,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>236</X>
-      <Y>155</Y>
+      <X>349</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2169</EQType>
@@ -3170,12 +3148,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
-      <Y>155</Y>
+      <X>391</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2170</EQType>
@@ -3187,30 +3165,29 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>296</X>
-      <Y>155</Y>
+      <X>433</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2171</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
   </InvSlot>
-
   <InvSlot item="BB15_Slot1">
     <ScreenID>BB15_Slot1</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>26</X>
-      <Y>185</Y>
+      <X>55</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2172</EQType>
@@ -3222,12 +3199,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>56</X>
-      <Y>185</Y>
+      <X>97</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2173</EQType>
@@ -3239,12 +3216,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>86</X>
-      <Y>185</Y>
+      <X>139</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2174</EQType>
@@ -3256,12 +3233,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>116</X>
-      <Y>185</Y>
+      <X>181</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2175</EQType>
@@ -3273,12 +3250,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>146</X>
-      <Y>185</Y>
+      <X>223</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2176</EQType>
@@ -3290,12 +3267,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>176</X>
-      <Y>185</Y>
+      <X>265</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2177</EQType>
@@ -3307,12 +3284,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>206</X>
-      <Y>185</Y>
+      <X>307</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2178</EQType>
@@ -3324,12 +3301,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>236</X>
-      <Y>185</Y>
+      <X>349</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2179</EQType>
@@ -3341,12 +3318,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
-      <Y>185</Y>
+      <X>391</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2180</EQType>
@@ -3358,30 +3335,29 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>296</X>
-      <Y>185</Y>
+      <X>433</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2181</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
   </InvSlot>
-  
   <InvSlot item="BB16_Slot1">
     <ScreenID>BB16_Slot1</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>26</X>
-      <Y>215</Y>
+      <X>55</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2182</EQType>
@@ -3393,12 +3369,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>56</X>
-      <Y>215</Y>
+      <X>97</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2183</EQType>
@@ -3410,12 +3386,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>86</X>
-      <Y>215</Y>
+      <X>139</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2184</EQType>
@@ -3427,12 +3403,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>116</X>
-      <Y>215</Y>
+      <X>181</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2185</EQType>
@@ -3444,12 +3420,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>146</X>
-      <Y>215</Y>
+      <X>223</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2186</EQType>
@@ -3461,12 +3437,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>176</X>
-      <Y>215</Y>
+      <X>265</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2187</EQType>
@@ -3478,12 +3454,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>206</X>
-      <Y>215</Y>
+      <X>307</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2188</EQType>
@@ -3495,12 +3471,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>236</X>
-      <Y>215</Y>
+      <X>349</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2189</EQType>
@@ -3512,12 +3488,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
-      <Y>215</Y>
+      <X>391</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2190</EQType>
@@ -3529,30 +3505,29 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>296</X>
-      <Y>215</Y>
+      <X>433</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2191</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
   </InvSlot>
-  
   <InvSlot item="BB17_Slot1">
     <ScreenID>BB17_Slot1</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>26</X>
+      <X>55</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2192</EQType>
@@ -3564,12 +3539,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>56</X>
+      <X>97</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2193</EQType>
@@ -3581,12 +3556,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>86</X>
+      <X>139</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2194</EQType>
@@ -3598,12 +3573,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>116</X>
+      <X>181</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2195</EQType>
@@ -3615,12 +3590,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>146</X>
+      <X>223</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2196</EQType>
@@ -3632,12 +3607,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>176</X>
+      <X>265</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2197</EQType>
@@ -3649,12 +3624,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>206</X>
+      <X>307</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2198</EQType>
@@ -3666,12 +3641,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>236</X>
+      <X>349</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2199</EQType>
@@ -3683,12 +3658,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
+      <X>391</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2200</EQType>
@@ -3700,30 +3675,29 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>296</X>
+      <X>433</X>
       <Y>5</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2201</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
   </InvSlot>
-  
   <InvSlot item="BB18_Slot1">
     <ScreenID>BB18_Slot1</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>26</X>
-      <Y>35</Y>
+      <X>55</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2202</EQType>
@@ -3735,12 +3709,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>56</X>
-      <Y>35</Y>
+      <X>97</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2203</EQType>
@@ -3752,12 +3726,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>86</X>
-      <Y>35</Y>
+      <X>139</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2204</EQType>
@@ -3769,12 +3743,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>116</X>
-      <Y>35</Y>
+      <X>181</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2205</EQType>
@@ -3786,12 +3760,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>146</X>
-      <Y>35</Y>
+      <X>223</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2206</EQType>
@@ -3803,12 +3777,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>176</X>
-      <Y>35</Y>
+      <X>265</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2207</EQType>
@@ -3820,12 +3794,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>206</X>
-      <Y>35</Y>
+      <X>307</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2208</EQType>
@@ -3837,12 +3811,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>236</X>
-      <Y>35</Y>
+      <X>349</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2209</EQType>
@@ -3854,12 +3828,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
-      <Y>35</Y>
+      <X>391</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2210</EQType>
@@ -3871,30 +3845,29 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>296</X>
-      <Y>35</Y>
+      <X>433</X>
+      <Y>47</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2211</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
   </InvSlot>
-  
   <InvSlot item="BB19_Slot1">
     <ScreenID>BB19_Slot1</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>26</X>
-      <Y>65</Y>
+      <X>55</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2212</EQType>
@@ -3906,12 +3879,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>56</X>
-      <Y>65</Y>
+      <X>97</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2213</EQType>
@@ -3923,12 +3896,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>86</X>
-      <Y>65</Y>
+      <X>139</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2214</EQType>
@@ -3940,12 +3913,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>116</X>
-      <Y>65</Y>
+      <X>181</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2215</EQType>
@@ -3957,12 +3930,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>146</X>
-      <Y>65</Y>
+      <X>223</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2216</EQType>
@@ -3974,12 +3947,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>176</X>
-      <Y>65</Y>
+      <X>265</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2217</EQType>
@@ -3991,12 +3964,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>206</X>
-      <Y>65</Y>
+      <X>307</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2218</EQType>
@@ -4008,12 +3981,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>236</X>
-      <Y>65</Y>
+      <X>349</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2219</EQType>
@@ -4025,12 +3998,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
-      <Y>65</Y>
+      <X>391</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2220</EQType>
@@ -4042,30 +4015,29 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>296</X>
-      <Y>65</Y>
+      <X>433</X>
+      <Y>89</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2221</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
   </InvSlot>
-  
   <InvSlot item="BB20_Slot1">
     <ScreenID>BB20_Slot1</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>26</X>
-      <Y>95</Y>
+      <X>55</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2222</EQType>
@@ -4077,12 +4049,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>56</X>
-      <Y>95</Y>
+      <X>97</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2223</EQType>
@@ -4094,12 +4066,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>86</X>
-      <Y>95</Y>
+      <X>139</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2224</EQType>
@@ -4111,12 +4083,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>116</X>
-      <Y>95</Y>
+      <X>181</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2225</EQType>
@@ -4128,12 +4100,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>146</X>
-      <Y>95</Y>
+      <X>223</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2226</EQType>
@@ -4145,12 +4117,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>176</X>
-      <Y>95</Y>
+      <X>265</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2227</EQType>
@@ -4162,12 +4134,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>206</X>
-      <Y>95</Y>
+      <X>307</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2228</EQType>
@@ -4179,12 +4151,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>236</X>
-      <Y>95</Y>
+      <X>349</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2229</EQType>
@@ -4196,12 +4168,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
-      <Y>95</Y>
+      <X>391</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2230</EQType>
@@ -4213,30 +4185,29 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>296</X>
-      <Y>95</Y>
+      <X>433</X>
+      <Y>131</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2231</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
   </InvSlot>
-  
   <InvSlot item="BB21_Slot1">
     <ScreenID>BB21_Slot1</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>26</X>
-      <Y>125</Y>
+      <X>55</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2232</EQType>
@@ -4248,12 +4219,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>56</X>
-      <Y>125</Y>
+      <X>97</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2233</EQType>
@@ -4265,12 +4236,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>86</X>
-      <Y>125</Y>
+      <X>139</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2234</EQType>
@@ -4282,12 +4253,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>116</X>
-      <Y>125</Y>
+      <X>181</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2235</EQType>
@@ -4299,12 +4270,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>146</X>
-      <Y>125</Y>
+      <X>223</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2236</EQType>
@@ -4316,12 +4287,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>176</X>
-      <Y>125</Y>
+      <X>265</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2237</EQType>
@@ -4333,12 +4304,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>206</X>
-      <Y>125</Y>
+      <X>307</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2238</EQType>
@@ -4350,12 +4321,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>236</X>
-      <Y>125</Y>
+      <X>349</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2239</EQType>
@@ -4367,12 +4338,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
-      <Y>125</Y>
+      <X>391</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2240</EQType>
@@ -4384,30 +4355,29 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>296</X>
-      <Y>125</Y>
+      <X>433</X>
+      <Y>173</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2241</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
   </InvSlot>
-  
   <InvSlot item="BB22_Slot1">
     <ScreenID>BB22_Slot1</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>26</X>
-      <Y>155</Y>
+      <X>55</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2242</EQType>
@@ -4419,12 +4389,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>56</X>
-      <Y>155</Y>
+      <X>97</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2243</EQType>
@@ -4436,12 +4406,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>86</X>
-      <Y>155</Y>
+      <X>139</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2244</EQType>
@@ -4453,12 +4423,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>116</X>
-      <Y>155</Y>
+      <X>181</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2245</EQType>
@@ -4470,12 +4440,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>146</X>
-      <Y>155</Y>
+      <X>223</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2246</EQType>
@@ -4487,12 +4457,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>176</X>
-      <Y>155</Y>
+      <X>265</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2247</EQType>
@@ -4504,12 +4474,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>206</X>
-      <Y>155</Y>
+      <X>307</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2248</EQType>
@@ -4521,12 +4491,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>236</X>
-      <Y>155</Y>
+      <X>349</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2249</EQType>
@@ -4538,12 +4508,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
-      <Y>155</Y>
+      <X>391</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2250</EQType>
@@ -4555,30 +4525,29 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>296</X>
-      <Y>155</Y>
+      <X>433</X>
+      <Y>215</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2251</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
   </InvSlot>
-  
   <InvSlot item="BB23_Slot1">
     <ScreenID>BB23_Slot1</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>26</X>
-      <Y>185</Y>
+      <X>55</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2252</EQType>
@@ -4590,12 +4559,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>56</X>
-      <Y>185</Y>
+      <X>97</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2253</EQType>
@@ -4607,12 +4576,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>86</X>
-      <Y>185</Y>
+      <X>139</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2254</EQType>
@@ -4624,12 +4593,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>116</X>
-      <Y>185</Y>
+      <X>181</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2255</EQType>
@@ -4641,12 +4610,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>146</X>
-      <Y>185</Y>
+      <X>223</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2256</EQType>
@@ -4658,12 +4627,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>176</X>
-      <Y>185</Y>
+      <X>265</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2257</EQType>
@@ -4675,12 +4644,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>206</X>
-      <Y>185</Y>
+      <X>307</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2258</EQType>
@@ -4692,12 +4661,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>236</X>
-      <Y>185</Y>
+      <X>349</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2259</EQType>
@@ -4709,12 +4678,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
-      <Y>185</Y>
+      <X>391</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2260</EQType>
@@ -4726,30 +4695,29 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>296</X>
-      <Y>185</Y>
+      <X>433</X>
+      <Y>257</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2261</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
   </InvSlot>
-  
   <InvSlot item="BB24_Slot1">
     <ScreenID>BB24_Slot1</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>26</X>
-      <Y>215</Y>
+      <X>55</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2262</EQType>
@@ -4761,12 +4729,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>56</X>
-      <Y>215</Y>
+      <X>97</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2263</EQType>
@@ -4778,12 +4746,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>86</X>
-      <Y>215</Y>
+      <X>139</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2264</EQType>
@@ -4795,12 +4763,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>116</X>
-      <Y>215</Y>
+      <X>181</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2265</EQType>
@@ -4812,12 +4780,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>146</X>
-      <Y>215</Y>
+      <X>223</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2266</EQType>
@@ -4829,12 +4797,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>176</X>
-      <Y>215</Y>
+      <X>265</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2267</EQType>
@@ -4846,12 +4814,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>206</X>
-      <Y>215</Y>
+      <X>307</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2268</EQType>
@@ -4863,12 +4831,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>236</X>
-      <Y>215</Y>
+      <X>349</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2269</EQType>
@@ -4880,12 +4848,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
-      <Y>215</Y>
+      <X>391</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2270</EQType>
@@ -4897,31 +4865,30 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>296</X>
-      <Y>215</Y>
+      <X>433</X>
+      <Y>299</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2271</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
   </InvSlot>
-  
   <!--SHARED 1-->
   <InvSlot item="BB25_Slot1">
     <ScreenID>BB25_Slot1</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>26</X>
-      <Y>294</Y>
+      <X>55</X>
+      <Y>397</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2532</EQType>
@@ -4933,12 +4900,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>56</X>
-      <Y>294</Y>
+      <X>97</X>
+      <Y>397</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2533</EQType>
@@ -4950,12 +4917,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>86</X>
-      <Y>294</Y>
+      <X>139</X>
+      <Y>397</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2534</EQType>
@@ -4967,12 +4934,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>116</X>
-      <Y>294</Y>
+      <X>181</X>
+      <Y>397</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2535</EQType>
@@ -4984,12 +4951,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>146</X>
-      <Y>294</Y>
+      <X>223</X>
+      <Y>397</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2536</EQType>
@@ -5001,12 +4968,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>176</X>
-      <Y>294</Y>
+      <X>265</X>
+      <Y>397</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2537</EQType>
@@ -5018,12 +4985,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>206</X>
-      <Y>294</Y>
+      <X>307</X>
+      <Y>397</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2538</EQType>
@@ -5035,12 +5002,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>236</X>
-      <Y>294</Y>
+      <X>349</X>
+      <Y>397</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2539</EQType>
@@ -5052,12 +5019,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
-      <Y>294</Y>
+      <X>391</X>
+      <Y>397</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2540</EQType>
@@ -5069,31 +5036,30 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>296</X>
-      <Y>294</Y>
+      <X>433</X>
+      <Y>397</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2541</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
   </InvSlot>
-
   <!--SHARED 2-->
   <InvSlot item="BB26_Slot1">
     <ScreenID>BB26_Slot1</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>26</X>
-      <Y>324</Y>
+      <X>55</X>
+      <Y>439</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2542</EQType>
@@ -5105,12 +5071,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>56</X>
-      <Y>324</Y>
+      <X>97</X>
+      <Y>439</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2543</EQType>
@@ -5122,12 +5088,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>86</X>
-      <Y>324</Y>
+      <X>139</X>
+      <Y>439</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2544</EQType>
@@ -5139,12 +5105,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>116</X>
-      <Y>324</Y>
+      <X>181</X>
+      <Y>439</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2545</EQType>
@@ -5156,12 +5122,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>146</X>
-      <Y>324</Y>
+      <X>223</X>
+      <Y>439</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2546</EQType>
@@ -5173,12 +5139,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>176</X>
-      <Y>324</Y>
+      <X>265</X>
+      <Y>439</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2547</EQType>
@@ -5190,12 +5156,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>206</X>
-      <Y>324</Y>
+      <X>307</X>
+      <Y>439</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2548</EQType>
@@ -5207,12 +5173,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>236</X>
-      <Y>324</Y>
+      <X>349</X>
+      <Y>439</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2549</EQType>
@@ -5224,12 +5190,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
-      <Y>324</Y>
+      <X>391</X>
+      <Y>439</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2550</EQType>
@@ -5241,19 +5207,18 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>296</X>
-      <Y>324</Y>
+      <X>433</X>
+      <Y>439</Y>
     </Location>
     <Size>
-      <CX>30</CX>
-      <CY>30</CY>
+      <CX>42</CX>
+      <CY>42</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>2551</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
   </InvSlot>
-
   <Label item="BB_BagFull1">
     <ScreenID>BB_BagFull1_Label</ScreenID>
     <Font>5</Font>
@@ -5275,7 +5240,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-  </Label> 
+  </Label>
   <Label item="BB_BagFull2">
     <ScreenID>BB_BagFull2_Label</ScreenID>
     <Font>5</Font>
@@ -5297,7 +5262,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-  </Label> 
+  </Label>
   <Label item="BB_BagFull3">
     <ScreenID>BB_BagFull3_Label</ScreenID>
     <Font>5</Font>
@@ -5319,7 +5284,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-  </Label> 
+  </Label>
   <Label item="BB_BagFull4">
     <ScreenID>BB_BagFull4_Label</ScreenID>
     <Font>5</Font>
@@ -5341,7 +5306,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-  </Label> 
+  </Label>
   <Label item="BB_BagFull5">
     <ScreenID>BB_BagFull5_Label</ScreenID>
     <Font>5</Font>
@@ -5363,7 +5328,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-  </Label> 
+  </Label>
   <Label item="BB_BagFull6">
     <ScreenID>BB_BagFull6_Label</ScreenID>
     <Font>5</Font>
@@ -5385,7 +5350,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-  </Label> 
+  </Label>
   <Label item="BB_BagFull7">
     <ScreenID>BB_BagFull7_Label</ScreenID>
     <Font>5</Font>
@@ -5407,7 +5372,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-  </Label> 
+  </Label>
   <Label item="BB_BagFull8">
     <ScreenID>BB_BagFull8_Label</ScreenID>
     <Font>5</Font>
@@ -5429,7 +5394,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-  </Label> 
+  </Label>
   <Label item="BB_BagFull9">
     <ScreenID>BB_BagFull9_Label</ScreenID>
     <Font>5</Font>
@@ -5451,7 +5416,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-  </Label> 
+  </Label>
   <Label item="BB_BagFull10">
     <ScreenID>BB_BagFull10_Label</ScreenID>
     <Font>5</Font>
@@ -5473,7 +5438,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-  </Label> 
+  </Label>
   <Label item="BB_BagFull11">
     <ScreenID>BB_BagFull11_Label</ScreenID>
     <Font>5</Font>
@@ -5495,7 +5460,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-  </Label> 
+  </Label>
   <Label item="BB_BagFull12">
     <ScreenID>BB_BagFull12_Label</ScreenID>
     <Font>5</Font>
@@ -5517,7 +5482,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-  </Label> 
+  </Label>
   <Label item="BB_BagFull13">
     <ScreenID>BB_BagFull13_Label</ScreenID>
     <Font>5</Font>
@@ -5539,7 +5504,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-  </Label> 
+  </Label>
   <Label item="BB_BagFull14">
     <ScreenID>BB_BagFull14_Label</ScreenID>
     <Font>5</Font>
@@ -5561,7 +5526,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-  </Label> 
+  </Label>
   <Label item="BB_BagFull15">
     <ScreenID>BB_BagFull15_Label</ScreenID>
     <Font>5</Font>
@@ -5583,7 +5548,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-  </Label> 
+  </Label>
   <Label item="BB_BagFull16">
     <ScreenID>BB_BagFull16_Label</ScreenID>
     <Font>5</Font>
@@ -5605,7 +5570,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-  </Label> 
+  </Label>
   <Label item="BB_BagFull17">
     <ScreenID>BB_BagFull17_Label</ScreenID>
     <Font>5</Font>
@@ -5627,7 +5592,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-  </Label> 
+  </Label>
   <Label item="BB_BagFull18">
     <ScreenID>BB_BagFull8_Label</ScreenID>
     <Font>5</Font>
@@ -5649,7 +5614,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-  </Label> 
+  </Label>
   <Label item="BB_BagFull19">
     <ScreenID>BB_BagFull19_Label</ScreenID>
     <Font>5</Font>
@@ -5671,7 +5636,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-  </Label> 
+  </Label>
   <Label item="BB_BagFull20">
     <ScreenID>BB_BagFull20_Label</ScreenID>
     <Font>5</Font>
@@ -5693,7 +5658,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-  </Label> 
+  </Label>
   <Label item="BB_BagFull21">
     <ScreenID>BB_BagFull21_Label</ScreenID>
     <Font>5</Font>
@@ -5715,7 +5680,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-  </Label> 
+  </Label>
   <Label item="BB_BagFull22">
     <ScreenID>BB_BagFull22_Label</ScreenID>
     <Font>5</Font>
@@ -5737,7 +5702,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-  </Label> 
+  </Label>
   <Label item="BB_BagFull23">
     <ScreenID>BB_BagFull23_Label</ScreenID>
     <Font>5</Font>
@@ -5759,7 +5724,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-  </Label> 
+  </Label>
   <Label item="BB_BagFull24">
     <ScreenID>BB_BagFull24_Label</ScreenID>
     <Font>5</Font>
@@ -5781,7 +5746,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-  </Label> 
+  </Label>
   <Label item="BB_BagFull25">
     <ScreenID>BB_BagFull25_Label</ScreenID>
     <Font>5</Font>
@@ -5803,7 +5768,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-  </Label> 
+  </Label>
   <Label item="BB_BagFull26">
     <ScreenID>BB_BagFull26_Label</ScreenID>
     <Font>5</Font>
@@ -5825,7 +5790,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-  </Label> 
+  </Label>
   <Page item="BankBags0">
     <ScreenID>Bankbags0</ScreenID>
     <RelativePosition>True</RelativePosition>
@@ -5938,8 +5903,8 @@
       <Y>22</Y>
     </Location>
     <Size>
-      <CX>326</CX>
-      <CY>246</CY>
+      <CX>477</CX>
+      <CY>343</CY>
     </Size>
   </Page>
   <Page item="BankBags1">
@@ -6054,8 +6019,8 @@
       <Y>22</Y>
     </Location>
     <Size>
-      <CX>326</CX>
-      <CY>246</CY>
+      <CX>477</CX>
+      <CY>343</CY>
     </Size>
   </Page>
   <Page item="BankBags2">
@@ -6170,8 +6135,8 @@
       <Y>22</Y>
     </Location>
     <Size>
-      <CX>326</CX>
-      <CY>246</CY>
+      <CX>477</CX>
+      <CY>343</CY>
     </Size>
   </Page>
   <TabBox item="BIGB_TabWindows">
@@ -6182,8 +6147,8 @@
       <Y>15</Y>
     </Location>
     <Size>
-      <CX>334</CX>
-      <CY>276</CY>
+      <CX>485</CX>
+      <CY>373</CY>
     </Size>
     <TabBorderTemplate>FT_DefTabBorder</TabBorderTemplate>
     <PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
@@ -6200,17 +6165,17 @@
       <Y>25</Y>
     </Location>
     <Size>
-      <CX>350</CX>
-      <CY>455</CY>
+      <CX>485</CX>
+      <CY>605</CY>
     </Size>
-    <Text>Bank</Text>
+    <Text>EZServer Bank</Text>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
     <DrawTemplate>WDT_Inner</DrawTemplate>
-    <Style_Titlebar>False</Style_Titlebar>
-    <Style_Closebox>False</Style_Closebox>
-    <Style_Minimizebox>false</Style_Minimizebox>
-    <Style_Border>true</Style_Border>
+    <Style_Titlebar>true</Style_Titlebar>
+    <Style_Closebox>true</Style_Closebox>
+    <Style_Minimizebox>true</Style_Minimizebox>
+    <Style_Border>false</Style_Border>
     <Style_Sizable>false</Style_Sizable>
     <Pieces>BIGB_BankerName</Pieces>
     <Pieces>BIGB_AutoButton</Pieces>
