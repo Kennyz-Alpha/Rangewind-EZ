@@ -24,3 +24,6 @@
 # HoH.mac
 	Combines all HoH tokens in inventory.  Requires empty Magic Box in last bag slot
 
+ # UsePlat.mac
+	Uses the cliclable plat items.  
+
