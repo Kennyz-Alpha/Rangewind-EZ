@@ -1,0 +1,35 @@
+Sub Main
+
+    :PilferedCrate
+        /if (!${FindItem[Pilfered Crate of Platinum].ID}==NULL && ${FindItemCount[Pilfered Crate of Platinum]} >= 1)  {
+            
+            /itemnotify "Pilfered Crate of Platinum" rightmouseup
+            /delay 4
+            /goto :PilferedCrate
+        }
+
+    :EpicCrate    
+        /if (!${FindItem[Epic Platinum Crate].ID}==NULL && ${FindItemCount[Epic Platinum Crate]} >= 1)  {
+            
+            /itemnotify "Epic Platinum Crate" rightmouseup
+            /delay 4
+            /goto :EpicCrate
+        }
+
+    :Expensive
+        /if (!${FindItem[Expensive Blue Diamond].ID}==NULL && ${FindItemCount[Expensive Blue Diamond]} >= 1)  {
+            
+            /itemnotify "Expensive Blue Diamond" rightmouseup
+            /delay 4
+            /goto :Expensive
+        }
+
+    :EpicBag
+        /if (!${FindItem[Epic Bag of Platinum Pieces].ID}==NULL && ${FindItemCount[Epic Bag of Platinum Pieces]} >= 1)  {
+            
+            /itemnotify "Epic Bag of Platinum Pieces" rightmouseup
+            /delay 4
+            /goto :EpicBag
+        }
+
+    /return
