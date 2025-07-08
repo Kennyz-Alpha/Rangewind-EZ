@@ -124,12 +124,12 @@ Sub Main
 						:KeepLootingItems
 						/delay 2
 						/if ((${Corpse.Item[${LootSlot}].Value} > ${Math.Calc[${MinLootValue} * 1000]} && (!${Corpse.Item[${LootSlot}].NoDrop}))) {
-							/itemnotify loot${LootSlot} rightmouseup
+							/ctrlkey /itemnotify loot${LootSlot} rightmouseup
 							/delay 4
 						} else /if (${Bool[(${LootSpells}==True)]} && ${Bool[${Corpse.Item[${LootSlot}].Scroll}]} && ${Corpse.Item[${LootSlot}].CanUse} && !${Bool[${Me.Book[${Corpse.Item[${LootSlot}].Scroll}]}]}) {
 							/if (${Int[${Math.Calc[${FindItemCount[=${Corpse.Item[${LootSlot}].Name}]}+${FindItemBankCount[=${Corpse.Item[${LootSlot}].Name}]}]}]}<1) {
 							/docommand /${DefaultChat} [SPELL] Looting ${Corpse.Item[${LootSlot}].ItemLink[CLICKABLE]}
-							/itemnotify loot${LootSlot} rightmouseup
+							/ctrlkey /itemnotify loot${LootSlot} rightmouseup
 							/delay 4
 							}
 						} else /if (${Ini[${LootIni},${Corpse.Item[${LootSlot}].Name.Left[1]},${Corpse.Item[${LootSlot}]}].Equal[Keep]}) {
@@ -139,31 +139,31 @@ Sub Main
 							/docommand /${DefaultChat} ${Corpse.Item[${LootSlot}].ItemLink[CLICKABLE]} found! ID: ${cID}
 						} else /if (${Ini[${LootIni},${Corpse.Item[${LootSlot}].Name.Left[1]},${Corpse.Item[${LootSlot}]}].Equal[Single]}) {
 							/if (${Int[${Math.Calc[${FindItemCount[=${Corpse.Item[${LootSlot}].Name}]}+${FindItemBankCount[=${Corpse.Item[${LootSlot}].Name}]}]}]}<1) {
-								/itemnotify loot${LootSlot} rightmouseup
+								/ctrlkey /itemnotify loot${LootSlot} rightmouseup
 								/delay 4
 							}
 						} else /if (${Ini[${LootIni},${Corpse.Item[${LootSlot}].Name.Left[1]},${Corpse.Item[${LootSlot}]}].Equal[Count1]}) {
 							/if (${Int[${Math.Calc[${FindItemCount[=${Corpse.Item[${LootSlot}].Name}]}+${FindItemBankCount[=${Corpse.Item[${LootSlot}].Name}]}]}]}<${LootCount1}) {
 								/docommand /${DefaultChat} Looting ${Corpse.Item[${LootSlot}].ItemLink[CLICKABLE]} - Looted: ${Int[${Math.Calc[${FindItemCount[=${Corpse.Item[${LootSlot}].Name}]}+1+${FindItemBankCount[=${Corpse.Item[${LootSlot}].Name}]}]}]} of ${LootCount1}
-								/itemnotify loot${LootSlot} rightmouseup
+								/ctrlkey /itemnotify loot${LootSlot} rightmouseup
 								/delay 4
 							}
 						} else /if (${Ini[${LootIni},${Corpse.Item[${LootSlot}].Name.Left[1]},${Corpse.Item[${LootSlot}]}].Equal[Count2]}) {
 							/if (${Int[${Math.Calc[${FindItemCount[=${Corpse.Item[${LootSlot}].Name}]}+${FindItemBankCount[=${Corpse.Item[${LootSlot}].Name}]}]}]}<${LootCount2}) {
 								/docommand /${DefaultChat} Looting ${Corpse.Item[${LootSlot}].ItemLink[CLICKABLE]} - Looted: ${Int[${Math.Calc[${FindItemCount[=${Corpse.Item[${LootSlot}].Name}]}+1+${FindItemBankCount[=${Corpse.Item[${LootSlot}].Name}]}]}]} of ${LootCount2}
-								/itemnotify loot${LootSlot} rightmouseup
+								/ctrlkey /itemnotify loot${LootSlot} rightmouseup
 								/delay 4
 							}
 						} else /if (${Ini[${LootIni},${Corpse.Item[${LootSlot}].Name.Left[1]},${Corpse.Item[${LootSlot}]}].Equal[Count3]}) {
 							/if (${Int[${Math.Calc[${FindItemCount[=${Corpse.Item[${LootSlot}].Name}]}+${FindItemBankCount[=${Corpse.Item[${LootSlot}].Name}]}]}]}<${LootCount3}) {
 								/docommand /${DefaultChat} Looting ${Corpse.Item[${LootSlot}].ItemLink[CLICKABLE]} - Looted: ${Int[${Math.Calc[${FindItemCount[=${Corpse.Item[${LootSlot}].Name}]}+1+${FindItemBankCount[=${Corpse.Item[${LootSlot}].Name}]}]}]} of ${LootCount3}
-								/itemnotify loot${LootSlot} rightmouseup
+								/ctrlkey /itemnotify loot${LootSlot} rightmouseup
 								/delay 4
 							}
 						} else /if (${Ini[${LootIni},${Corpse.Item[${LootSlot}].Name.Left[1]},${Corpse.Item[${LootSlot}]}].Equal[Count4]}) {
 							/if (${Int[${Math.Calc[${FindItemCount[=${Corpse.Item[${LootSlot}].Name}]}+${FindItemBankCount[=${Corpse.Item[${LootSlot}].Name}]}]}]}<${LootCount4}) {
 								/docommand /${DefaultChat} Looting ${Corpse.Item[${LootSlot}].ItemLink[CLICKABLE]} - Looted: ${Int[${Math.Calc[${FindItemCount[=${Corpse.Item[${LootSlot}].Name}]}+1+${FindItemBankCount[=${Corpse.Item[${LootSlot}].Name}]}]}]} of ${LootCount4}
-								/itemnotify loot${LootSlot} rightmouseup
+								/ctrlkey /itemnotify loot${LootSlot} rightmouseup
 								/delay 4
 							}
 						}
