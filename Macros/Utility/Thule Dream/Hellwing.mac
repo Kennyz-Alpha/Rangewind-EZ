@@ -1,0 +1,11 @@
+
+
+|==== Sub Main
+Sub Main
+
+/highlight NPC Ghoulbark
+/highlight NPC Terror Tentacle
+/highlight NPC Hauntvine Entangler
+
+/return
+|==== End Main

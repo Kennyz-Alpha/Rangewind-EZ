@@ -1,0 +1,12 @@
+
+
+|==== Sub Main
+Sub Main
+
+/highlight NPC Dreamfang
+/highlight NPC Webwraith Arachnid
+/highlight NPC Serpentress Petrifier
+/highlight NPC Magmafang
+
+/return
+|==== End Main

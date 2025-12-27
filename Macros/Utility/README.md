@@ -2,6 +2,9 @@
 
 # Seal
 	Macros for crafting Artisan's Seal.  Mounted gems in bulk of 50.  Seals in groups of 10.
+
+# Thule Dream
+	Macros that highlight the mobs connected to the targeted boss.
  
 # buyaa.mac
 	Buys all available AA

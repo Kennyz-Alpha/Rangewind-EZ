@@ -1,0 +1,12 @@
+
+
+|==== Sub Main
+Sub Main
+
+/highlight NPC Macabre Jester
+/highlight NPC Terrorthread Marionette
+/highlight NPC Grimwick Marionette
+/highlight NPC Animated statue
+
+/return
+|==== End Main

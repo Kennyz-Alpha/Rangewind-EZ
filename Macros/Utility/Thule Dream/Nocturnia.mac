@@ -1,0 +1,12 @@
+
+
+|==== Sub Main
+Sub Main
+
+/highlight NPC Mistmoore Vampire
+/highlight NPC Vileblood Vampire
+/highlight NPC a Vampire
+
+
+/return
+|==== End Main
